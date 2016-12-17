@@ -23,19 +23,19 @@ function grandpa(){
 
 Remove entries from the array until only correct answers remain
 
-These function(s) access the playball variable and get homerun
+// Which function(s) access the playball variable and get homerun (Delete wrong answers, leave correct ones)
 var scopeArray1 = ["grandpa", "dad", "son", "uncle", "cousin"];
 
-These function(s) access the playball variable and get touchdown
+// Which function(s) access the playball variable and get touchdown (Delete wrong answers, leave correct ones)
 var scopeArray2 = ["grandpa", "dad", "son", "uncle", "cousin"];
 
-These function(s) access the badjoke variable and get undefined
+// Which function(s) access the badjoke variable and get undefined (Delete wrong answers, leave correct ones)
 var scopeArray3 = ["grandpa", "dad", "son", "uncle", "cousin"];
 
-These functions accesss the badjoke variable and get "Har"
+// Which functions accesss the badjoke variable and get "Har" (Delete wrong answers, leave correct ones)
 var scopeArray4 = ["grandpa", "dad", "son", "uncle", "cousin"];
 
-These functions access the playnintendo variable and get Mario
+// Which functions access the playnintendo variable and get Mario (Delete wrong answers, leave correct ones)
 var scopeArray5 = ["grandpa", "dad", "son", "uncle", "cousin"];
 
 
@@ -46,6 +46,9 @@ Promises
   Call setTimeout on a function
   which changes the variable foo (above) to 'bar'
   Resolve the promise when setTimeout completes.
+  
+  
+
 
 Context
 # Context 1
